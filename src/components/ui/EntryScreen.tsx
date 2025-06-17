@@ -10,9 +10,9 @@ const EntryScreen: React.FC<EntryScreenProps> = ({ onEnter }) => {
       {/* Sunflower motif */}
       <div className="absolute top-8 left-8 text-7xl animate-float">🌻</div>
       <div className="absolute bottom-8 right-8 text-7xl animate-float-slow">🌻</div>
-      <h1 className="text-5xl font-dancing text-pink-500 mb-8 drop-shadow-lg text-center">Welcome to Dipannita's Birthday!</h1>
+      <h1 className="text-5xl font-dancing text-pink-500 mb-8 drop-shadow-lg text-center">Welcome to Sania's Birthday!</h1>
       <p className="text-xl text-pink-700 mb-12 text-center max-w-xl">
-        A magical surprise awaits you. Click below to enter!
+        A surprise awaits you. Click below to enter!
       </p>
       <button
         onClick={onEnter}

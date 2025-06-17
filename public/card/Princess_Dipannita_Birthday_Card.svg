@@ -1,0 +1,40 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffe0f7"/>
+      <stop offset="1" stop-color="#cdb4f6"/>
+    </linearGradient>
+    <linearGradient id="btn" x1="0" y1="0" x2="200" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff7eb9"/>
+      <stop offset="1" stop-color="#a685e2"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <ellipse cx="400" cy="420" rx="320" ry="60" fill="#fff6fa" fill-opacity="0.7"/>
+  <g filter="url(#glow)">
+    <text x="400" y="120" text-anchor="middle" font-size="48" font-family="'Dancing Script',cursive" fill="#ff7eb9" font-weight="bold">Happy Birthday</text>
+    <text x="400" y="180" text-anchor="middle" font-size="36" font-family="'Dancing Script',cursive" fill="#a685e2">Princess Dipannita</text>
+  </g>
+  <text x="400" y="250" text-anchor="middle" font-size="24" font-family="'Dancing Script',cursive" fill="#7d5fff">Wishing you a magical year&#10;full of love, joy &amp; sparkle!</text>
+  <g>
+    <circle cx="150" cy="100" r="6" fill="#ffb6e6"/>
+    <circle cx="650" cy="80" r="5" fill="#a685e2"/>
+    <circle cx="720" cy="400" r="8" fill="#ffb6e6"/>
+    <circle cx="80" cy="370" r="4" fill="#a685e2"/>
+    <circle cx="400" cy="60" r="7" fill="#fff6fa"/>
+    <circle cx="200" cy="420" r="5" fill="#fff6fa"/>
+    <circle cx="600" cy="450" r="6" fill="#ffb6e6"/>
+  </g>
+  <g>
+    <rect x="300" y="320" rx="30" width="200" height="60" fill="url(#btn)"/>
+    <text x="400" y="360" text-anchor="middle" font-size="24" font-family="'Dancing Script',cursive" fill="#fff">Shine On, Princess!</text>
+  </g>
+  <text x="400" y="420" text-anchor="middle" font-size="18" font-family="'Dancing Script',cursive" fill="#a685e2">Always keep shining. You are loved. Forever.</text>
+</svg>

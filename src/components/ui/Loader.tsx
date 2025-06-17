@@ -69,7 +69,7 @@ const Loader: React.FC = () => {
         transition={{ delay: 0.5 }}
         className="mt-4 text-xl font-dancing text-royal-purple-700"
       >
-        Creating Magic for Princess Dipannita...
+        Creating for Sania...
       </motion.p>
     </div>
   );
